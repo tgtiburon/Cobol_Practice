@@ -1,4 +1,4 @@
-      *A  B
+      * A  B
        IDENTIFICATION DIVISION. 
        PROGRAM-ID. PAYROL00.
        DATA DIVISION. 
@@ -13,19 +13,20 @@
 
        PROCEDURE DIVISION .
       ***** COBOL MOVE statements -- Literal Text to variables
-       MOVE "Bobby Brady" TO WHO.
-       MOVE "Los Angeles" TO WHERE.
-       MOVE "For the Silver Platters."   To WHY.
-       MOVE 19 TO HOURS.
-       MOVE 23 TO RATE.
+           MOVE "Bobby Brady" TO WHO.
+           MOVE "Los Angeles" TO WHERE.
+           MOVE "For the Silver Platters."   To WHY.
+           MOVE 19 TO HOURS.
+           MOVE 23 TO RATE.
       ***** Calculation using COMPUTE  *****
-       COMPUTE GROSS-PAY = HOURS * RATE .
+           COMPUTE GROSS-PAY = HOURS * RATE .
       ***** DISPLAY STATEMENTS *****
-       DISPLAY "Name: " WHO.
-       DISPLAY "Location: " WHERE.
-       DISPLAY "Reason: " WHY.
-       DISPLAY "Hours Worked: " HOURS.
-       DISPLAY "Hourly Rate: " RATE.
-       DISPLAY "Gross Pay: " GROSS-PAY.
-       DISPLAY WHY " from " WHO.
-       GOBACK.
+           DISPLAY "Name: " WHO.
+           DISPLAY "Location: " WHERE.
+           DISPLAY "Reason: " WHY.
+           DISPLAY "Hours Worked: " HOURS.
+           DISPLAY "Hourly Rate: " RATE.
+           DISPLAY "Gross Pay: " GROSS-PAY.
+           DISPLAY WHY " from " WHO.
+           GOBACK.
+      
