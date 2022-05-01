@@ -20,7 +20,7 @@
            MOVE 23 TO RATE.
       ***** Calculation using COMPUTE  *****
            COMPUTE GROSS-PAY = HOURS * RATE .
-      ***** DISPLAY STATEMENTS *****
+      ***** DISPLAY STATEMENTS *****  
            DISPLAY "Name: " WHO.
            DISPLAY "Location: " WHERE.
            DISPLAY "Reason: " WHY.
@@ -29,4 +29,6 @@
            DISPLAY "Gross Pay: " GROSS-PAY.
            DISPLAY WHY " from " WHO.
            GOBACK.
+
+           
       
